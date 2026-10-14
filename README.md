@@ -6,25 +6,7 @@ A small desktop widget that lists dates you're waiting for — game releases,
 films, birthdays, concerts — in date order, with how many days are left. It
 docks to the left edge of the screen, vertically centred, by default.
 
-```
-┌──────────────────────────────────┐
-│ Upcoming                      ⊕  │
-│ OCTOBER 2026 ─────────────────── │
-│ ▌ Concert                     4  │
-│ ▌ Sat 17 Oct · Arena        days │
-│ NOVEMBER 2026 ────────────────── │
-│ ▌ Big RPG                    38  │
-│ ▌ Fri 20 Nov · PS5, PC      days │
-│ FEBRUARY 2027 ────────────────── │
-│ ▌ Some game                 114  │
-│ ▌ Thu 4 Feb 2027            days │
-│ Q2 2027 ──────────────────────── │
-│ ▌ A sequel                  5–9  │
-│ ▌ Q2 2027                 months │
-│ TBA ──────────────────────────── │
-│ ▌ A remake                  TBA  │
-└──────────────────────────────────┘
-```
+<p align="center"><img src="docs/screenshot.png" width="356" alt="The Upcoming widget showing events grouped by month with day and month countdowns"></p>
 
 ## Requirements
 
@@ -164,6 +146,8 @@ install_startup.bat   add/remove the Windows startup shortcut
 remove_startup.bat
 list.bat              print all events
 selftest.bat          date maths + data file check
+tools/
+  make_screenshot.py  renders docs/screenshot.png from demo events
 upcoming/
   model.py            fuzzy dates, countdowns, ordering (no Qt)
   store.py            events.json + category colours, atomic save, reload
