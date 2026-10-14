@@ -3,8 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey) ![Qt](https://img.shields.io/badge/UI-PySide6-41cd52) ![License](https://img.shields.io/badge/license-MIT-green)
 
 A small desktop widget that lists dates you're waiting for — game releases,
-films, birthdays, concerts — in date order, with how many days are left. It
-docks to the left edge of the screen, vertically centred, by default.
+films, birthdays, concerts — in date order, with how many days are left.
 
 <p align="center"><img src="docs/screenshot.png" width="356" alt="The Upcoming widget showing events grouped by month with day and month countdowns"></p>
 
